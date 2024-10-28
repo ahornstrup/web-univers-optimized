@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="css/forum.css">
+</head>
+
+<body>
+    <header>
+        <a href="" class="logo"></a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+        <nav class="navbar">
+            <a href="index.html" class="navbar-logo">
+                <img src="img/web-univers-logo_bg_removed.webp" alt="logo"/>
+            </a>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="#">Artikler</a>
+                    <ul>
+                        <!-- Dette er sublinks -->
+                        <li><a href="nyheder.html">Nyheder</a></li>
+                        <li><a href="#">Bil Test</a>
+                            <ul>
+                                <li><a href="test-volswagen.html">Volkwagen</a></li>
+                                <li><a href="test-mercedes.html">Mercedes</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="#">Din Første Bil</a>
+                    <ul>
+                        <li><a href="10tips.html">10 Tips</a></li>
+                        <li><a href="hvilkenbil.html">Hvilken bil passer dig?</a></li>
+                    </ul>
+                </li>
+                <li><a href="galleri.html">Galleri</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Forum Section -->
+    <main>
+        <section class="forum-section">
+            <h2>Motor Magnets Fælles Forum</h2>
+            <article class="post">
+                <section class="post-header">
+                    <h3>HJÆLP!!! Hul i udstødning</h3>
+                    <p>Posted by wilddan1234 | Oct 12, 2024</p>
+                </section>
+                <section class="post-body">
+                    <p>Der er kommet et hul i min udstødning og jeg har ingen ide om hvordan det er kommet eller hvordan jeg fixer det! Er der nogen som har nogle gode tips?</p>
+                </section>
+            </article>
+            <article class="post">
+                <section class="post-header">
+                    <h3>Flot, gammel E30</h3>
+                    <p>Posted by bmwman123 | Oct 13, 2024</p>
+                </section>
+                <section class="post-body">
+                    <p>Tog lige dette dejlige billede sidst jeg var ude med den gamle</p>
+                    <img src="img/bmw-e30.webp" alt="bmw E30"/>
+                </section>
+            </article>
+
+            <!-- New Post Form -->
+            <article class="new-post-form">
+                <h3>Lav dit eget opslag</h3>
+                <form>
+                    <label for="post-title">Titel:</label>
+                    <input type="text" id="post-title" name="post-title" required>
+
+                    <label for="post-body">Dit opslag:</label>
+                    <textarea id="post-body" name="post-body" rows="5" required></textarea>
+
+                    <button type="submit">SLÅ OP</button>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer med kontaktinfo -->
+    <footer>
+        <section class="footer-info">
+            <article class="contact">
+                <h3>Kontakt</h3>
+                <p>Email</p>
+                <p>Kundeservice</p>
+            </article>
+            <article class="social-media">
+                <h3>SoMe</h3>
+                    <section class="social-meadia-links">
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                        <a href="https://x.com/" target="_blank">X</a>
+                    </section>
+            </article>
+        </section>
+    </footer>
+
+</body>
+</html>
