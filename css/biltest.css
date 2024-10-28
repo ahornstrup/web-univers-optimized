@@ -157,6 +157,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    line-height: 1.5rem;
 }
 
 .contact, .social-media {
